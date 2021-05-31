@@ -38,11 +38,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Networking\RTSNetworkManager.cs" />
      <Compile Include="Assets\Scripts\Units\UnitMovement.cs" />
+     <Compile Include="Assets\Scripts\Networking\RTSPlayer.cs" />
      <Compile Include="Assets\Scripts\Units\Unit.cs" />
+     <Compile Include="Assets\Scripts\Units\UnitCommandGiver.cs" />
      <Compile Include="Assets\Scripts\Buildings\UnitSpawner.cs" />
      <Compile Include="Assets\Scripts\Units\UnitSelectionHandler.cs" />
-     <Compile Include="Assets\Scripts\Units\UnitCommandGiver.cs" />
-     <Compile Include="Assets\Scripts\Networking\RTSPlayer.cs" />
+     <Compile Include="Assets\Scripts\Combat\Targetable.cs" />
+     <Compile Include="Assets\Scripts\Combat\Targeter.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\53-Mirror__Network Observer-NewNetworkObserver.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
