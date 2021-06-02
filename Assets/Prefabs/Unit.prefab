@@ -50,7 +50,7 @@ GameObject:
   - component: {fileID: 6902259749699082215}
   - component: {fileID: 4403947961067769747}
   - component: {fileID: 3589710848302188320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Unit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  health: {fileID: 4403947961067769747}
   unitMovement: {fileID: 6677456026546152459}
   targeter: {fileID: 4025860676074348821}
   onSelected:
