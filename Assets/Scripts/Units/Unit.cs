@@ -64,6 +64,7 @@ public class Unit : NetworkBehaviour
     {
         if(!isClientOnly || !hasAuthority) {return;}
         
+        //if we are not the host and we have authority
         AuthorityOnUnitDespawned?.Invoke(this);
     }
 
