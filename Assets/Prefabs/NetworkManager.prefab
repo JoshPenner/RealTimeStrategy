@@ -64,13 +64,13 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs:
-  - {fileID: 4921066569361177465, guid: afaa676827c035f4b86105d68c8adca7, type: 3}
   - {fileID: 2318963214929070502, guid: 0c81eb8da16e4924ba152d28170c9318, type: 3}
-  - {fileID: 8842751199986845020, guid: d319a0c0b4e322d4696fb73a8de9b862, type: 3}
   - {fileID: 1376686841708275538, guid: 78fc86b98da576f49b1c5186ac901713, type: 3}
-  - {fileID: 2318963214929070502, guid: ee0a7052fd0cd0b45bf9010ce094e346, type: 3}
   - {fileID: 2318963214929070502, guid: fb65399bb28e64a4b8c9cd6b5ab5ec6d, type: 3}
-  unitSpawnerPrefab: {fileID: 2318963214929070502, guid: ee0a7052fd0cd0b45bf9010ce094e346, type: 3}
+  - {fileID: 4672981153103324873, guid: c3a24212b6b9c3b4e9a294d869a4d2ff, type: 3}
+  - {fileID: 4131707768969014071, guid: 8edeb5802b84d914cba3c8dbf69f4e9d, type: 3}
+  - {fileID: 8050722048415699381, guid: 5ed61c9efe4b89a4bb2782881205727a, type: 3}
+  unitSpawnerPrefab: {fileID: 2318963214929070502, guid: 0c81eb8da16e4924ba152d28170c9318, type: 3}
   gameOverHandlerPrefab: {fileID: 133869914871401474, guid: 78fc86b98da576f49b1c5186ac901713, type: 3}
 --- !u!114 &5846562753940649320
 MonoBehaviour:
