@@ -848,6 +848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   landingPagePanel: {fileID: 1209006383}
+  useSteam: 0
 --- !u!1 &357158218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,6 +1206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5846562753940649321, guid: 5a66b2fd76ebc264b82b4dca27fd2dbd, type: 3}
+      propertyPath: maxConnections
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5846562753940649322, guid: 5a66b2fd76ebc264b82b4dca27fd2dbd, type: 3}
       propertyPath: m_RootOrder
       value: 2
