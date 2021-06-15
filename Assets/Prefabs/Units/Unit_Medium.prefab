@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6412915797011967819, guid: afaa676827c035f4b86105d68c8adca7, type: 3}
+      propertyPath: colorRenderers.Array.data[0]
+      value: 
+      objectReference: {fileID: 6435899846991961746}
     - target: {fileID: 2129154778366533286, guid: afaa676827c035f4b86105d68c8adca7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0354
@@ -239,3 +243,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c907fc5ae0b8d214293164e10a499209, type: 3}
+--- !u!23 &6435899846991961746 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: c907fc5ae0b8d214293164e10a499209, type: 3}
+  m_PrefabInstance: {fileID: 5661444118238249494}
+  m_PrefabAsset: {fileID: 0}
